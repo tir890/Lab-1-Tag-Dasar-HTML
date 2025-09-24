@@ -47,10 +47,14 @@ Setelah itu file ini akan digunakan untuk menambahkan elemen-elemen HTML berikut
 Saya menambahkan dua paragraf menggunakan tag `<p>`.  
 Paragraf pertama berisi pengenalan singkat, dan paragraf kedua berisi contoh teks tambahan.  
 Saya juga mencoba atribut `align` (center, right, left, justify) untuk melihat perbedaan posisi teks.  
+
 ![Paragraf HTML](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/0ca9b799f58256c0b5548905927f5bd9386c4962/Langkah%202.png)
 
-### 3. Kemudian selanjutnya, buka file tersebut pada web browser misalnya Brave
-![foto](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/0ca9b799f58256c0b5548905927f5bd9386c4962/Langkah%201.png)
+### 3. Langkah 3 – Menambahkan Judul
+Saya menambahkan heading `<h1>` sebagai judul utama, dan `<h2>` sebagai subjudul.  
+Heading membuat tampilan halaman lebih terstruktur dan mudah dibaca.  
+
+![Heading HTML](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/bade7b5ab13dc01a03b9a98c66648d9622049cf8/Langkah%203.png)
 
 ### 4. Membuat Paragraf
 Selanjutnya membuat beberapa paragraf sederhana sebagai contoh berikut,
