@@ -30,3 +30,7 @@ Kalau mau gambar tetep proporsional, biasanya cukup isi salah satu aja, misalnya
 - `_top` → link kebuka di jendela paling atas, biasanya kepake kalau lagi mainan frame/iframe.
 
 - `_parent` → link kebuka di frame induk, satu tingkat di atas halaman sekarang.
+
+## Penjelasan Setiap Langkah Praktikum
+
+
