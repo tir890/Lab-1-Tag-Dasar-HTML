@@ -8,8 +8,6 @@ NIM : 312410474
 
 Mata Kuliah : Pemrograman Web
 
-
-
 ## Jawab Pertanyaan Berikut
 
 ### 1. Apa yang terjadi jika ada error penulisan tag HTML?
@@ -33,8 +31,6 @@ Kalau mau gambar tetep proporsional, biasanya cukup isi salah satu aja, misalnya
 
 - `_parent` → link kebuka di frame induk, satu tingkat di atas halaman sekarang.
 
-
-
 ## Langkah-langkah Praktikum
 Persiapan membuka VSCode dan Browser.
 
@@ -44,5 +40,23 @@ Kemudian buat file baru dengan nama lab1_tag_dasar.html dan tambahkan tag dasar 
 
 ### 2. Memasukkan Modul Praktikum
 ![foto](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/db12d59c84cba4f67ce8ce9fa408d879d14548a3/Langkah%200.png)
+
+### 3. Kemudian selanjutnya, buka file tersebut pada web browser misalnya Brave
+![foto](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/0ca9b799f58256c0b5548905927f5bd9386c4962/Langkah%201.png)
+
+### 4. Membuat Paragraf
+Selanjutnya membuat beberapa paragraf sederhana sebagai contoh berikut,
+```html
+``` <!-- Ini adalah paragraf pertama -->
+<p>Kami sedang belajar HTML dasar, pada matakuliah Pemrograman Web di Prodi
+Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama yang kami dapat
+adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar
+HTML.</p>
+<!-- Ini adalah paragraf kedua -->
+<p>Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling
+mendukung sehingga menjadi satu kesatuan. Paragraf dibuat dengan menggunakan
+tag dasar html.</p>
+```
+![foto](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/0ca9b799f58256c0b5548905927f5bd9386c4962/Langkah%202.png)
 
 
