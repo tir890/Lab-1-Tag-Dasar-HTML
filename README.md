@@ -40,10 +40,14 @@ Kalau mau gambar tetep proporsional, biasanya cukup isi salah satu aja, misalnya
 ### 1. Langkah 1 – Membuat File HTML Dasar
 Saya membuat file baru bernama `lab1_tag_dasar.html` dengan struktur HTML yang ada pada modul.  
 Setelah itu file ini akan digunakan untuk menambahkan elemen-elemen HTML berikutnya.  
+
 ![Struktur HTML Dasar](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/db12d59c84cba4f67ce8ce9fa408d879d14548a3/Langkah%200.png)
 
-### 2. Memasukkan Modul Praktikum
-![foto]
+### 2. Langkah 2 – Membuat Paragraf
+Saya menambahkan dua paragraf menggunakan tag `<p>`.  
+Paragraf pertama berisi pengenalan singkat, dan paragraf kedua berisi contoh teks tambahan.  
+Saya juga mencoba atribut `align` (center, right, left, justify) untuk melihat perbedaan posisi teks.  
+![Paragraf HTML](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/0ca9b799f58256c0b5548905927f5bd9386c4962/Langkah%202.png)
 
 ### 3. Kemudian selanjutnya, buka file tersebut pada web browser misalnya Brave
 ![foto](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/0ca9b799f58256c0b5548905927f5bd9386c4962/Langkah%201.png)
@@ -64,8 +68,7 @@ tag dasar html.</p>
 Setelah itu simpan kembali perubahannya, dan lakukan refresh pada web browser untuk melihat hasilnya.
 
 ### 5. Tampilan Paragraf pada Browser
-![foto](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/0ca9b799f58256c0b5548905927f5bd9386c4962/Langkah%202.png)
-Perhatikan jarak antar paragraf pada gambar di atas.
+![foto]
 
 ### 6. Mengatur Atribut
 
