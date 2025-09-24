@@ -35,9 +35,14 @@ Kalau mau gambar tetep proporsional, biasanya cukup isi salah satu aja, misalnya
 
 
 
-## Penjelasan Setiap Langkah Praktikum
+## Langkah-langkah Praktikum
+Persiapan membuka VSCode dan Browser.
 
 ### 1. Membuka Visual Studio Code
 ![foto](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/ddfdbec9c5d4cf12cd067baf685bd9b0d5fbaec2/Langkah.png)
-Membuka VSCode lalu membuat file baru.
+Kemudian buat file baru dengan nama lab1_tag_dasar.html dan tambahkan tag dasar dokumen HTML.
+
+### 2. Memasukkan Modul Praktikum
+![foto](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/db12d59c84cba4f67ce8ce9fa408d879d14548a3/Langkah%200.png)
+
 
