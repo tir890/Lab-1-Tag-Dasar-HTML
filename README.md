@@ -14,4 +14,4 @@ Mata Kuliah : Pemrograman Web
 
 Jika terjadi kesalahan penulisan tag HTML, browser umumnya tetap berusaha menampilkan halaman. Namun, tampilan halaman tersebut bisa menjadi tidak sesuai dengan yang diharapkan. Beberapa elemen mungkin tidak muncul, tata letak berantakan, atau fungsi tertentu tidak berjalan sebagaimana mestinya.
 
-2. Apa perbedaan dari tag '<p>' dengan tag '<br>'?
+2. Apa perbedaan dari tag <p> dengan tag <br> ?
