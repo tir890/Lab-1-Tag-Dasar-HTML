@@ -8,6 +8,8 @@ NIM : 312410474
 
 Mata Kuliah : Pemrograman Web
 
+
+
 ## Jawab Pertanyaan Berikut
 
 ### 1. Apa yang terjadi jika ada error penulisan tag HTML?
@@ -31,6 +33,10 @@ Kalau mau gambar tetep proporsional, biasanya cukup isi salah satu aja, misalnya
 
 - `_parent` → link kebuka di frame induk, satu tingkat di atas halaman sekarang.
 
+
+
 ## Penjelasan Setiap Langkah Praktikum
+
+
 
 
