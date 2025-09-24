@@ -13,25 +13,25 @@ Mata Kuliah : Pemrograman Web
 ## Jawab Pertanyaan Berikut
 
 ### 1. Apa yang terjadi jika ada error penulisan tag HTML?
-Jika terjadi kesalahan penulisan tag HTML, browser umumnya tetap berusaha menampilkan halaman. Namun, tampilan halaman tersebut bisa menjadi tidak sesuai dengan yang diharapkan. Beberapa elemen mungkin tidak muncul, tata letak berantakan, atau fungsi tertentu tidak berjalan sebagaimana mestinya.
+Browser masih menampilkan halaman, tapi tampilan bisa berantakan atau ada elemen yang tidak muncul.  
 
 ### 2. Apa perbedaan dari tag `<p>` dengan tag `<br>`, berikan penjelasannya!
-Tag `<p>` digunakan untuk membuat sebuah paragraf baru, di mana secara default terdapat jarak (spasi) sebelum dan sesudah paragraf. Sementara itu, tag `<br>` hanya digunakan untuk memindahkan teks ke baris berikutnya tanpa memberikan jarak tambahan seperti pada paragraf.
+`<p>` membuat paragraf baru dengan jarak, sedangkan `<br>` hanya memindahkan teks ke baris berikutnya.  
 
 ### 3. Apa perbedaan atribut 'title' dan 'alt' pada tag `<img>`, berikan penjelasannya!
-Atribut title biasanya muncul kayak tooltip waktu kursor diarahkan ke gambar, jadi sifatnya lebih ke info tambahan. Sementara alt itu teks pengganti yang nongol kalau gambar gagal dimuat, plus berguna banget buat aksesibilitas (dibaca screen reader). Jadi title lebih buat “hiasan/info ekstra”, alt lebih penting secara fungsional.
+`title` muncul sebagai tooltip saat gambar di-hover, sedangkan `alt` adalah teks alternatif jika gambar gagal dimuat.  
 
 ### 4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan Penjelasannya!
-Kalau mau gambar tetep proporsional, biasanya cukup isi salah satu aja, misalnya width. Karena kalau dua-duanya diisi tapi gak sesuai rasio aslinya, gambar bisa jadi gepeng atau ketarik. Jadi biar aman, atur satu atribut aja dan biarkan browser otomatis nyesuaiin sisanya.
+Sebaiknya cukup isi salah satu atribut (misalnya `width`) agar gambar tetap proporsional. Jika keduanya diisi tidak sesuai rasio asli, gambar bisa terdistorsi.  
 
 ### 5. Pada link tambahkan atribut target dengan nilai atribut bervariasi `( _blank, _self, _top, _parent )`, apa yang terjadi pada masing-masing nilai antribut tersebut?
-- `_blank` → link kebuka di tab baru (sering dipake biar halaman utama gak ketutup).
+- `_blank` → link terbuka di tab/jendela baru.  
 
-- `_self` → link kebuka di tab yang sama, ini default-nya.
+- `_self` → link terbuka di tab yang sama (default).  
+  
+- `_top` → link terbuka di jendela utama, menimpa semua frame.  
 
-- `_top` → link kebuka di jendela paling atas, biasanya kepake kalau lagi mainan frame/iframe.
-
-- `_parent` → link kebuka di frame induk, satu tingkat di atas halaman sekarang.
+- `_parent` → link terbuka di frame induk (jika ada frame).  
 
 
 
@@ -56,25 +56,33 @@ Heading membuat tampilan halaman lebih terstruktur dan mudah dibaca.
 
 ![Heading HTML](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/bade7b5ab13dc01a03b9a98c66648d9622049cf8/Langkah%203.png)
 
-### 4. Membuat Paragraf
-Selanjutnya membuat beberapa paragraf sederhana sebagai contoh berikut,
-```html
-<!-- Ini adalah paragraf pertama -->
-<p>Kami sedang belajar HTML dasar, pada matakuliah Pemrograman Web di Prodi
-Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama yang kami dapat
-adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar
-HTML.</p>
-<!-- Ini adalah paragraf kedua -->
-<p>Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling
-mendukung sehingga menjadi satu kesatuan. Paragraf dibuat dengan menggunakan
-tag dasar html.</p>
-```
-Setelah itu simpan kembali perubahannya, dan lakukan refresh pada web browser untuk melihat hasilnya.
+### 4. Langkah 4 – Pemformatan Teks
+Saya mencoba beberapa tag pemformatan seperti `<b>`, `<i>`, `<u>`, dan `<mark>`.  
+Dengan tag ini, teks bisa dibuat tebal, miring, bergaris bawah, atau diberi highlight.  
 
-### 5. Tampilan Paragraf pada Browser
-![foto]
+![Pemformatan Teks](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/50edfab05700ac9d24c7cdeb9ca3790bad61256f/Langkah%205.png)
 
-### 6. Mengatur Atribut
+### 5. Langkah 5 – Menyisipkan Gambar
+Saya menambahkan gambar dengan tag `<img>`.  
+File gambar disimpan dalam folder yang sama dengan file HTML.  
+Saya juga menambahkan atribut `width`, `alt`, dan `title` untuk mengatur ukuran serta deskripsi gambar.
+
+![Gambar HTML](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/50edfab05700ac9d24c7cdeb9ca3790bad61256f/Langkah%206.png)
+
+### 6. Langkah 6 – Menambahkan Hyperlink
+Saya menambahkan hyperlink menggunakan tag `<a>`.  
+Ada tiga jenis link yang saya buat:  
+- Link ke halaman utama (`lab1_tag_dasar.html`)
+  
+- Link ke halaman kedua (`lab1_halaman2.html`)
+  
+- Link ke website eksternal (Google) 
+
+![Hyperlink HTML](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/50edfab05700ac9d24c7cdeb9ca3790bad61256f/Langkah%208.png)
+
+
+## Kesimpulan
+Dari praktikum ini saya jadi memahami struktur dasar HTML, cara membuat paragraf, heading, pemformatan teks, menambahkan gambar, serta membuat hyperlink. Praktikum ini juga melatih ketelitian, karena kesalahan kecil pada penulisan tag bisa memengaruhi hasil tampilan di browser.  
 
 
 
