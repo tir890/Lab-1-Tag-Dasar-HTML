@@ -20,4 +20,6 @@ Tag <p> digunakan untuk membuat sebuah paragraf baru, di mana secara default ter
 
 3. Apa perbedaan atribut 'title' dan 'alt' pada tag <img>?
    
-Atribut title digunakan untuk memberikan informasi tambahan yang biasanya muncul dalam bentuk tooltip ketika pengguna mengarahkan kursor ke gambar. Sedangkan atribut alt berfungsi sebagai teks alternatif yang ditampilkan apabila gambar gagal dimuat. Selain itu, alt juga memiliki peran penting dalam aksesibilitas karena dapat dibaca oleh screen reader bagi pengguna dengan keterbatasan penglihatan.
+Atribut title biasanya muncul kayak tooltip waktu kursor diarahkan ke gambar, jadi sifatnya lebih ke info tambahan. Sementara alt itu teks pengganti yang nongol kalau gambar gagal dimuat, plus berguna banget buat aksesibilitas (dibaca screen reader). Jadi title lebih buat “hiasan/info ekstra”, alt lebih penting secara fungsional.
+
+
