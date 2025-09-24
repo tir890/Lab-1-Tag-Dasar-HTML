@@ -37,5 +37,7 @@ Kalau mau gambar tetep proporsional, biasanya cukup isi salah satu aja, misalnya
 
 ## Penjelasan Setiap Langkah Praktikum
 
+### 1. Membuka Visual Studio Code
 ![foto](https://github.com/tir890/Lab-1-Tag-Dasar-HTML/blob/ddfdbec9c5d4cf12cd067baf685bd9b0d5fbaec2/Langkah.png)
+Membuka VSCode lalu membuat file baru.
 
