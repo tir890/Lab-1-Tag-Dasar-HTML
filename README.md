@@ -23,10 +23,10 @@ Atribut title biasanya muncul kayak tooltip waktu kursor diarahkan ke gambar, ja
 Kalau mau gambar tetep proporsional, biasanya cukup isi salah satu aja, misalnya width. Karena kalau dua-duanya diisi tapi gak sesuai rasio aslinya, gambar bisa jadi gepeng atau ketarik. Jadi biar aman, atur satu atribut aja dan biarkan browser otomatis nyesuaiin sisanya.
 
 ### 5. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank, _self, _top, _parent ), apa yang terjadi pada masing-masing nilai antribut tersebut?
--`_blank` → link kebuka di tab baru (sering dipake biar halaman utama gak ketutup).
+- `_blank` → link kebuka di tab baru (sering dipake biar halaman utama gak ketutup).
 
--`_self` → link kebuka di tab yang sama, ini default-nya.
+- `_self` → link kebuka di tab yang sama, ini default-nya.
 
--`_top` → link kebuka di jendela paling atas, biasanya kepake kalau lagi mainan frame/iframe.
+- `_top` → link kebuka di jendela paling atas, biasanya kepake kalau lagi mainan frame/iframe.
 
--`_parent` → link kebuka di frame induk, satu tingkat di atas halaman sekarang.
+- `_parent` → link kebuka di frame induk, satu tingkat di atas halaman sekarang.
